@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">D1041161010_UTS_PBB</string>
+    <string name="text_main">KOMPONEN ANDROID STUDIO</string>
+    <string name="button_activity">ACTIVITY</string>
+    <string name="button_broadcast">BROADCAST RECEIVERS</string>
+    <string name="button_content">CONTENT PROVIDERS</string>
+    <string name="button_service">SERVICE</string>
+    <string name="button_intent1">INTENT</string>
+
+    <string name="contoh_syntax">CONTOH SYNTAX</string>
+
+    <string name="contoh_ACT">CONTOH SYNTAX</string>
+    <string name="contoh_BRO">CONTOH SYNTAX</string>
+    <string name="contoh_CON">CONTOH SYNTAX</string>
+    <string name="contoh_SER">CONTOH SYNTAX</string>
+    <string name="contoh_INT">CONTOH SYNTAX</string>
+
+
+    <string name="button_materi">MATERI</string>
+    <string name="button_back">BACK</string>
+
+    <string name="penjelasan_activity">Sebuah Activity akan menampilkan antarmuka aplikasi di layar, sebagai contoh ketika kita membuka sebuah aplikasi maka akan muncul tampilan dari aplikasi tersebut</string>
+    <string name="penjelasan_broadcast">Broadcast Receiver berfungsi menerima pesan intent dari aplikasi lain atau dari sistem. Sebagai contoh, suatu aplikasi mengirim pesan berisi perintah tertentu untuk aplikasi lain bahwa beberapa data telah diunduh ke perangkat dan tersedia bagi mereka untuk menggunakan apklikasi tersebut, jadi Broadcast Receiver inilah yang akan menangani komunikasi ini dan akan melakukan tindakan yang tepat.Sebuah Broadcast Receiver diimplementasikan sebagai subclass dari class BroadcastReceiver dan setiap pesan akan dikirim dan diterima sebagai objek Intent</string>
+    <string name="penjelasan_content">ContentProvider adalah penyedia konten dari satu aplikasi ke aplikasi lain atas perintah tertentu. Perintah tersebut ditangani oleh sebuah method dari class ContentResolver. Data dapat disimpan dalam sistem file, database atau di tempat lainnya.ContentProvider diimplementasikan sebagai subclass dari class ContentProvider dan harus menerapkan satu set standar API yang memungkinkan aplikasi lain untuk melakukan transaksi.</string>
+    <string name="penjelasan_service">Service adalah komponen yang berjalan di latar belakang. Sebagai contoh, Service bisa memainkan musik di latar belakang saat pengguna berada dalam aplikasi yang berbeda, atau mungkin mengambil data melalui jaringan tanpa menghalangi interaksi pengguna dengan aktivitas</string>
+    <string name="penjelasan_intent">Intent adalah sebuah kelas dalam programming Android yang berfungsi untuk perpindahan halaman.\n\n
+    Intent juga merupakan suatu objek yang terdapat dalam suatu activity dimana objek tersebut dapat komunikasi dengan activity yang lain, baik activity pada fungsi internal android misal seperti memanggil activity dalam satu package atau beda package yang masih berada dalam satu project.</string>
+
+    <string name="contoh_activity">public class MainActivity extends Activity {.....}</string>
+    <string name="contoh_broadcast">public class MyReceiver  extends  BroadcastReceiver {
+   public void onReceive(context,intent){}
+}</string>
+    <string name="contoh_content">public class MyContentProvider extends  ContentProvider {
+   public void onCreate(){}
+}</string>
+    <string name="contoh_service">public class MyService extends Service {
+}</string>
+    <string name="contoh_intent">static final String ACTION_TIMETRAVEL = "com.example.action.TIMETRAVEL";</string>
+
+</resources>
